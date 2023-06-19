@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+      // onGenerateRoute will run every time we use pushNamedRoute or any other namedRoute we have
       onGenerateRoute: (settings) => generateRoute(settings),
       home: const AuthScreen(),
     );
